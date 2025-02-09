@@ -9,7 +9,7 @@ blog_index: true
   (<a href="https://flus.fr/carnet/a-quoi-servent-les-flux.html">c'est quoi ?</a>)
 </aside>
 
-{% for post in site.posts blblllbl %}
+{% for post in site.posts }
 <article class="blog-item">
   <h2>
     <a href="{{post.url | relative_url}}"> {{ post.title }} </a>
